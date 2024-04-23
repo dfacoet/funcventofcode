@@ -26,3 +26,11 @@ executable funcventofcode
         funcventofcode
     hs-source-dirs:   src/bin
     default-language: GHC2021
+
+executable 2019_01
+    main-is:          2019_01.hs
+    build-depends:
+        base ^>=4.17.2.1,
+        funcventofcode
+    hs-source-dirs:   src/bin
+    default-language: GHC2021
