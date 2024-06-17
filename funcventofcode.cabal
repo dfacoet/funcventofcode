@@ -33,3 +33,11 @@ executable 2019_02
         split >=0.2
     hs-source-dirs:   src/bin
     default-language: GHC2021
+
+executable 2019_03
+    main-is:          2019_03.hs
+    build-depends:
+        base ^>=4.17.2.1,
+        split >=0.2
+    hs-source-dirs:   src/bin
+    default-language: GHC2021
